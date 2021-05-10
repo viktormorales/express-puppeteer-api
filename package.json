@@ -1,0 +1,19 @@
+{
+  "name": "hardiscount-bot",
+  "version": "1.0.5",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=dev nodemon -r dotenv/config bin/www dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
